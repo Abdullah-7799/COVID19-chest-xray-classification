@@ -1,0 +1,16 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Environments
+venv/
+.env
+
+# Data and Models (Very Important)
+data/
+*.h5
+*.weights.h5
+
+# OS files
+.DS_Store
+Thumbs.db
