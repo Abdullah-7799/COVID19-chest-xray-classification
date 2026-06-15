@@ -38,12 +38,11 @@ To use this model, you need to:
 1. Train from scratch using your own data, OR
 2. Contact me for access to pre-trained weights via separate agreement
 
-## Quick Start (architecture only)
+## Quick Start
 
-```
-pip install -r requirements.txt
-python inference.py
-```
+1. Install requirements: `pip install -r requirements.txt`
+2. Open `visualise_results.ipynb` in Jupyter to see model evaluation
+3. Use `models.py` to build the architecture for training
 
 ## Contact
 
