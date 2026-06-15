@@ -4,6 +4,21 @@
 
 Lightweight CNN model for detecting COVID-19 and other lung abnormalities from chest X-rays.
 
+## Classification Report
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| COVID | 0.99 | 1.00 | 1.00 | 723 |
+| Lung_Opacity | 0.96 | 0.93 | 0.95 | 1202 |
+| Normal | 0.96 | 0.97 | 0.97 | 2038 |
+| Viral Pneumonia | 0.95 | 1.00 | 0.97 | 269 |
+
+| Metric | Value |
+|--------|-------|
+| Accuracy | 0.97 |
+| Macro avg | 0.97 |
+| Weighted avg | 0.97 |
+
 ## Classes
 - COVID-19
 - Lung Opacity  
